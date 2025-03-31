@@ -2,15 +2,15 @@ import React, { useState } from "react";
 import "./styles.css";
 
 const initialImages = [
-  "public/Imagenes/1.jpg", "public/Imagenes/2.jpg", "public/Imagenes/3.jpg", "public/Imagenes/4.jpg",
-  "public/Imagenes/5.jpg", "public/Imagenes/6.jpg", "public/Imagenes/7.jpg", "public/Imagenes/8.jpg",
-  "public/Imagenes/9.jpg", "public/Imagenes/10.jpg"
+  "/Imagenes/1.jpg", "/Imagenes/2.jpg", "/Imagenes/3.jpg", "/Imagenes/4.jpg",
+  "/Imagenes/5.jpg", "/Imagenes/6.jpg", "/Imagenes/7.jpg", "/Imagenes/8.jpg",
+  "/Imagenes/9.jpg", "/Imagenes/10.jpg"
 ];
 
 const initialBackImages = [
-  "public/Imagenes/11.jpg", "public/Imagenes/12.jpg", "public/Imagenes/13.jpg", "public/Imagenes/14.jpg",
-  "public/Imagenes/15.jpg", "public/Imagenes/16.jpg", "public/Imagenes/17.jpg", "public/Imagenes/18.jpg",
-  "public/Imagenes/19.jpg", "public/Imagenes/20.jpg"
+  "/Imagenes/11.jpg", "/Imagenes/12.jpg", "/Imagenes/13.jpg", "/Imagenes/14.jpg",
+  "/Imagenes/15.jpg", "/Imagenes/16.jpg", "/Imagenes/17.jpg", "/Imagenes/18.jpg",
+  "/Imagenes/19.jpg", "/Imagenes/20.jpg"
 ];
 
 function Section1() {
